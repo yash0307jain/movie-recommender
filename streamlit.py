@@ -29,6 +29,7 @@ st.title("Movie Recommendation System")
 # Dropdown to display the movies list
 option = st.selectbox("Select the movie", movies_list)
 
+# After clicking the button, wll provide the selected option to the recommender to provide the recommendations
 if st.button("Recommend"):
     recommendations = recommender(option)
     for movie in recommendations:
