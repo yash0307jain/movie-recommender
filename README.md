@@ -1,2 +1,3 @@
 # movie-recommender
-Movie recommender engine using the content based filtering
+
+Movie recommender system using the content based filtering
