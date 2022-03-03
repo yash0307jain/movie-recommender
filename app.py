@@ -1,3 +1,7 @@
+"""
+Streamlit app
+"""
+
 # Importing the required libraries
 import streamlit as st
 import pickle
